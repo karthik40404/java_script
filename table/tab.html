@@ -10,6 +10,7 @@
     <table id="ppltab">
         <thead>
         <tr>
+            <th>id</th>
             <th>name</th>
             <th>age</th>
             <th>place</th>
@@ -19,10 +20,20 @@
         </tbody>
     </table>
     <form class="form" id="submit_form">
+        <h3>edit</h3>
+        <input type="number" id="id" placeholder="id">
         <input type="text" id="name" placeholder="name">
         <input type="number" id="age" placeholder="age">
         <input type="text" id="place" placeholder="place">
         <input type="submit" value="submit">
+    </form>
+    <form class="e_form" id="edit_form">
+        <h3>update</h3>
+        <input type="number" id="e_id" placeholder="id">
+        <input type="text" id="e_name" placeholder="name">
+        <input type="number" id="e_age" placeholder="age">
+        <input type="text" id="e_place" placeholder="place">
+        <input type="submit" value="update">
     </form>
     <script src="script.js"></script>
 </body>
