@@ -1,0 +1,18 @@
+table{
+    width: 100%;
+    background-color: blanchedalmond
+}
+
+tbody{
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+}
+.form{
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 50%;
+    background-color: rgb(191, 102, 123);
+    text-align: center;
+    padding: 20px;
+}
