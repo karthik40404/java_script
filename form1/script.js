@@ -5,7 +5,7 @@ let d = [
     {id: '3', name: 'zxc', age: '30', email: 'zxc@gmail.com', course: 'bsc', date: '27-6-2024'}
 ];
 
-let edit_id = '';
+
 function display() {
     const t_var = document.querySelector('#stdtab tbody');
     t_var.innerHTML = '';
@@ -39,7 +39,7 @@ function display() {
         t_var.appendChild(t_row);
     });
 }
-
+let edit_id = '';
 function edit_fm(id) {
     document.getElementById('edit_form').style.display = 'block';
     document.getElementById('submit_form').style.display = 'none';
